@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classes & IDs Practice</title>
+
+    <style>
+      .pageTitle {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        color: navy;
+        padding: 10px;
+      }
+
+      .box {
+        background-color: rgb(178, 214, 237);
+        border: 2px solid #3f4b5a;
+        border-radius: 3px;
+        padding: 18px;
+        margin: 10px;
+        font-size: 18px;
+      }
+
+      .external {
+        background-color: yellow;
+        border: 2px solid yellow;
+        border-radius: 3px;
+        padding: 18px;
+        margin: 10px;
+        font-size: 18px;
+      }
+
+      #special {
+        background-color: rgb(166, 226, 166);
+        border: 2px solid #267826;
+        border-radius: 3px;
+        padding: 18px;
+        margin: 10px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="pageTitle">Classes & IDs Practice</h1>
+
+    <div class="box">
+      <h2>Using Class</h2>
+      <p>This div has class="box" - styled from embedded CSS</p>
+    </div>
+
+    <div class="box">
+      <h2>Same Class Again</h2>
+      <p>This div also has class="box" - same style!</p>
+    </div>
+
+    <div class="external">
+      <h2>External Style</h2>
+      <p>This uses simulated external css inside this file</p>
+    </div>
+
+    <div id="special">
+      <h2>Using ID</h2>
+      <p>This div has id="special"</p>
+    </div>
+
+    <div
+      style="
+        background-color: yellow;
+        border: 2px solid yellow;
+        border-radius: 3px;
+        padding: 18px;
+        margin: 10px;
+      "
+    >
+      <h2>Inline Style</h2>
+      <p>This uses inline style="" - overrides everything!</p>
+    </div>
+
+    <div
+      style="
+        background-color: yellow;
+        border: 2px solid yellow;
+        border-radius: 3px;
+        padding: 18px;
+        margin: 10px;
+      "
+    >
+      <h2>Inline Style</h2>
+      <p>This uses inline style="" - overrides everything!</p>
+    </div>
+
+    <div id="special">
+      <h2>Using ID</h2>
+      <p>This div has id="special"</p>
+    </div>
+  </body>
+</html>
