@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: #d3d3d3;
+}
+
+.box {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+  background-color: blue;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  background-color: red;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  background-color: limegreen;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  background-color: yellow;
+}
