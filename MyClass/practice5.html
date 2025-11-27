@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: darkblue;
+        height: 1000px;
+        flex-wrap: wrap;
+      }
+      .box {
+        width: 200px;
+        background-color: blue;
+        height: 300px;
+        transition: 0.3s;
+        border: 5px solid black;
+        flex-basis: 100px;
+      }
+
+      .box:hover {
+        flex-grow: 0.25;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
