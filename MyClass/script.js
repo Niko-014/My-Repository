@@ -1,7 +1,9 @@
-const a = 10;
+const num = prompt(" Enter Your Score");
 
-const b = 20;
-
-const sum = a + b;
-
-console.log(sum);
+if (num / 10 > 9) {
+  console.log("You have passed succesfully");
+} else if (num / 10 > 5) {
+  console.log("You have passed");
+} else if (num / 10 < 5) {
+  console.log("You have failed");
+}
