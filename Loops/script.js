@@ -1,7 +1,14 @@
-let counter = 1;
+let guess = Number(prompt("Guess the number"));
+const number = 14;
 
-while (counter <= 5) {
-  counter++;
+while (guess !== number) {
+  if (guess > number) {
+    alert("Lower");
+  } else {
+    alert("Higher");
+  }
 
-  console.log(counter);
+  guess = Number(prompt("Try again"));
 }
+
+alert("You have guessed ");
