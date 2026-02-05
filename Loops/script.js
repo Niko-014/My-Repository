@@ -1,7 +1,12 @@
-let counter = 1;
+let number = prompt("Guess the number");
 
-while (counter <= 5) {
-  counter++;
+while (number == 14) {
+  number = prompt("You have found the number");
+}
 
-  console.log(counter);
+if (number > 14) {
+  number = prompt("Lower");
+}
+if (number < 14) {
+  number = prompt("Higher");
 }
