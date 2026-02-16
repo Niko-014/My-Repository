@@ -10,7 +10,6 @@ if (number > 14) {
 if (number < 14) {
   number = prompt("Higher");
 }
-
 let guess = Number(prompt("Guess the number"));
 const number = 14;
 
