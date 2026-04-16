@@ -1,0 +1,24 @@
+{
+  "name": "my-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niko-014/My-Repository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niko-014/My-Repository/issues"
+  },
+  "homepage": "https://github.com/Niko-014/My-Repository#readme"
+}
